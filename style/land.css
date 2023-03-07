@@ -313,12 +313,13 @@ span.ellepse{
 
 .fourth{
 	display: flex;
+	align-content: stretch;
 	flex-wrap: wrap;
 }
 .box{
-	width: 480px;
-	height: 480px;
-
+	width: 460px;
+	height: 460px;
+	
 }
 .item5 {
 	background: #22356F;
@@ -331,7 +332,7 @@ span.ellepse{
 
 .item7 {
 	background-image: url('../img/joanna1.webp');
-	background-size: 480px 480px;
+	background-size: 460px 460px;
 }
 
 .item8 {
@@ -360,13 +361,13 @@ span.ellepse{
 .five{
 	display: flex;
 flex-wrap: wrap;
-
+align-content: stretch;
 }
 .five_block {
 	display: inline-block;
 	background: #FFFFFF;
 	height: 240px;
-width: 480px;
+max-width: 460px;
 }
 .five_block_head {
 	margin: 55px 0 0 105px;
