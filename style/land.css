@@ -5,14 +5,9 @@
 main,
 footer,
 header {
-  background-color: rgb(182, 255, 255);
   max-width: 1440px;
-  height: 7000px;
   margin: 0 auto;
 }
-
-
-
 
 
 
